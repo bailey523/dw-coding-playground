@@ -53,10 +53,10 @@ h5 {
 
 /* Style the card for the header/title card */
 .cardTitle {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(235, 232, 232, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/Screenshot 2024-06-07 at 7.05.52 pm.png");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -96,7 +96,7 @@ h5 {
 
 /* Style the card for text messages */
 .cardText {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(251, 251, 251, 0.2); /* this adds the "card" effect */
   background-image: url("./img/txt-msg.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ h5 {
   padding-bottom: 450px;
   line-height: 0.8em;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: rgb(255, 254, 254);
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -118,7 +118,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
-  background-image: url("./img/stationary.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url("img/jellies.jpg"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: cover;
   font-size: 28px;
@@ -157,21 +157,20 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: left;
-  background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-color: #ffffff;
+  background-image: <img src="img/Screenshot 2023-10-31 at 12.26.44 am.png"
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }
 
 /* style button for remixing the haiku*/
 .buttonHaiku {
-  border-radius: 8px;
-  color: #000000;
-  background-color: white;
+  border-radius: 7px;
+  color: #e5d5d5;
+  background-color: rgb(186, 26, 26);
   font-family: "PT Serif", serif;
-  font-size: 12px;
-  margin: 15px;
+  font-size: 11px;
+  margin: 17px;
 }
 
 /* you can pretty much ignore the rest of the stylesheet code */
@@ -269,12 +268,12 @@ a:active {
 
 /* Style links inside Dystopian Dreams .cardPoem which has a black background*/
 .cardPoem a {
-  color: white; /* Set the link color to white */
+  color: rgb(154, 10, 10); /* Set the link color to white */
   text-decoration: none; /* Optional: remove underline */
 }
 
 .cardPoem a:visited {
-  color: white; /* Ensure visited links also appear white */
+  color: rgb(177, 3, 3); /* Ensure visited links also appear white */
 }
 
 .cardPoem a:hover {
@@ -341,7 +340,7 @@ img {
 .bubble {
   background-image: linear-gradient(
     180deg,
-    rgb(210, 244, 254) 25%,
+    rgb(159, 52, 6) 25%,
     rgb(149, 194, 253) 100%
   );
   background-image: -o-linear-gradient(
@@ -368,12 +367,12 @@ img {
     linear,
     left bottom,
     left top,
-    color-stop(0.25, rgb(210, 244, 254)),
-    color-stop(1, rgb(149, 194, 253))
+    color-stop(0.25, rgb(188, 186, 190)),
+    color-stop(1, rgb(174, 212, 209))
   );
   border: solid 1px rgba(0, 0, 0, 0.5);
   /* vendor rules */
-  border-radius: 20px;
+  border-radius: 10px;
   /* vendor rules */
   box-shadow: inset 0 5px 5px rgba(255, 255, 255, 0.4),
     0 1px 3px rgba(0, 0, 0, 0.2);
@@ -382,7 +381,7 @@ img {
   clear: both;
   float: left;
   margin-bottom: 20px;
-  padding: 8px 30px;
+  padding: 2px 7.5px;
   position: relative;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
   width: auto;
@@ -392,15 +391,15 @@ img {
 
 .bubble:before,
 .bubble:after {
-  border-radius: 20px / 10px;
+  border-radius: 20px / 20px;
   content: "";
   display: block;
   position: absolute;
 }
 
 .bubble:before {
-  border: 10px solid transparent;
-  border-bottom-color: rgba(0, 0, 0, 0.5);
+  border: 5px solid transparent;
+  border-bottom-color: rgba(6, 11, 164, 0.5);
   bottom: 0;
   left: -7px;
   z-index: -2;
@@ -451,7 +450,7 @@ img {
 
 .bubble--alt:before {
   border-bottom-color: rgba(0, 0, 0, 0.5);
-  border-radius: 20px / 10px;
+  border-radius: 20px / 20px;
   left: auto;
   right: -7px;
 }
