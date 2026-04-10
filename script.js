@@ -12,14 +12,11 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "Cannot be found",
+  "Where am I?",
+  "Where did the internet go?",
+  "Who am I even talking to?",
+  "Who is this?",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -41,16 +38,14 @@ function addText(content) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFun() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addText("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addText("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addText("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addText("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addText("🍟🥨🌮🥗🍱");
+  if (x === "Loud") {
+    addText("Screaming");
+  } else if (x === "Quiet") {
+    addText("Whispering");
+  } else if (x === "Louder") {
+    addText("Staring");
+  } else if (x === "Quieter") {
+    addText("Breathing");
   }
 }
 //end of dropdown function
@@ -58,22 +53,19 @@ function dropdownFun() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "there is a space here",
+  "as quiet as black",
+  "dreams of metal noise",
+  "hand over the hand",
+  "over hand over",
+  "quelling the noise",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "split from the end of yourself",
+  "in place of the turning gate",
+  "deft and lieth and and and and",
+  "confused and confused",
+  "as there is no end to the...",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -105,17 +97,18 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "Articulate nature",
+  "Allow the world to enter",
+  "Ask Questions",
+  "Are you paranoid enough?",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "Belive in nothing",
+  "break everything",
+  "Burn your masks",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can you see me",
+  "Can lanagguage be a prison",
+  "call quietly",
 
   "delete search history",
   "delusional jealousy",

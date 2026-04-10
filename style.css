@@ -11,13 +11,13 @@ body {
     pink,
     #cbf1e4
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
-  background-image: cover;
 }
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Kalam", cursive;
-  text-shadow: 1px 1px white;
+  font-family: "Roboto+Condensed", sans-serif;
+  text-shadow: 1px 1px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-size: 30px;
   font-style: bold;
   margin-top: 0;
@@ -56,7 +56,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(235, 232, 232, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/Screenshot 2024-06-07 at 7.05.52 pm.png");
+  background-image: url("img/white.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -118,11 +118,11 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
-  background-image: url("img/jellies.jpg"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url("img/Screenshot 2023-10-31 at 12.26.44 am.png"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: cover;
   font-size: 28px;
-  font-family: "Kalam", cursive;
+  font-family: "PT Serif", serif;
 }
 
 /* Style the card for the haiku function */
@@ -132,7 +132,7 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: rgb(159, 163, 159);
   color: white;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
@@ -158,9 +158,11 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #ffffff;
-  background-image: <img src="img/Screenshot 2023-10-31 at 12.26.44 am.png"
-  font-family: "Source Code Pro", monospace;
-  font-size: 14px; 
+  background-image: url("img/white.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "PT Serif", serif; /* font for <p> text */
+  font-size: 14px;
 }
 
 /* style button for remixing the haiku*/
@@ -268,16 +270,16 @@ a:active {
 
 /* Style links inside Dystopian Dreams .cardPoem which has a black background*/
 .cardPoem a {
-  color: rgb(154, 10, 10); /* Set the link color to white */
+  color: rgb(60, 59, 59); /* Set the link color to white */
   text-decoration: none; /* Optional: remove underline */
 }
 
 .cardPoem a:visited {
-  color: rgb(177, 3, 3); /* Ensure visited links also appear white */
+  color: rgb(42, 41, 41); /* Ensure visited links also appear white */
 }
 
 .cardPoem a:hover {
-  color: #dcdcdc; /* Optional: slightly different color on hover for better visibility */
+  color: #686464; /* Optional: slightly different color on hover for better visibility */
 }
 
 .cardPoem a:active {
